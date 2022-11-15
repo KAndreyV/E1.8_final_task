@@ -1,0 +1,43 @@
+.header{
+display: flex;
+flex-direction: row;
+background-color: #344C11;
+color: white;
+align-items: center;
+}
+
+.header h1{
+    padding: 0px 20px;
+}
+
+.header a{
+    font-size: 20px;
+    padding: 0px 20px;
+    color: white;
+    align-items: center;
+}
+
+.header a:hover{
+    background-color: #AEC09A;
+    color: #101010;
+    align-self: stretch;
+}
+
+.content{
+    display: flex;
+    flex-basic: width: 100px; height: 60px;
+    justify-content: center;
+}
+
+.picture{
+    display: flex;
+    flex-basic: 700px; height: 350px;
+}
+
+.text{
+    text-align: justify;
+    text-indent: 15px;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-size: 150%;
+}
